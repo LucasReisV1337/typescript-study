@@ -5,10 +5,12 @@ import { router } from "./routes";
 
 import swaggerFile from "./swagger.json"
 
+import "./database"
+
 
 const app = express();
 
-const port = 1337;
+const port = 3333;
 
 
 
